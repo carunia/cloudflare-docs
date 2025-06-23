@@ -5,7 +5,7 @@ product:
   title: Version Management
   url: /version-management/
   wrap: true
-  group: Cloudflare essentials
+  group: Core platform
 
 meta:
   title: Cloudflare Version Management docs
@@ -14,12 +14,3 @@ meta:
 
 resources:
   dashboard_link: https://dash.cloudflare.com/?to=/:account/:zone/versioning
-
-externals:
-  - title: Cloudflare homepage
-    url: https://cloudflare.com/
-
-algolia:
-  index: TEST - Re-dev docs
-  apikey: 4edb0a6cef3338ff4bcfbc6b3d2db56b
-  product: version-management

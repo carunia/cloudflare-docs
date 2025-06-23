@@ -12,7 +12,12 @@ Many application-layer protocols are built on top of the Transmission Control Pr
 
 :::note
 
-Connecting to a PostgreSQL database? You should use [Hyperdrive](/hyperdrive/), which provides the `connect()` API with built-in connection pooling and query caching. 
+Connecting to a PostgreSQL database? You should use [Hyperdrive](/hyperdrive/), which provides the `connect()` API with built-in connection pooling and query caching.
+:::
+
+:::note
+
+TCP Workers outbound connections are sourced from a prefix that is not part of [list of IP ranges](https://www.cloudflare.com/ips/).
 :::
 
 ## `connect()`

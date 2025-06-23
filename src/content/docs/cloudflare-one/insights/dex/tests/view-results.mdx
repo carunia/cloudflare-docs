@@ -3,15 +3,14 @@ pcx_content_type: how-to
 title: View test results
 sidebar:
   order: 3
-
 ---
 
-You can use the results of a DEX test to monitor availability and performance for a specific application.
+Use the results of a DEX test to monitor availability and performance for a specific application. DEX will store test results according to our [log retention policy](/cloudflare-one/insights/logs/#log-retention).
 
 ## Prerequisites
 
-* At least one test has been created under **DEX** > **Tests**.
-* Admins must have at least the [Cloudflare Zero Trust Reporting role](/cloudflare-one/roles-permissions/#zero-trust-roles).
+- At least one [test](/cloudflare-one/insights/dex/tests/) has been created under **DEX** > **Tests**.
+- Admins must have at least the [Cloudflare Zero Trust Reporting role](/cloudflare-one/roles-permissions/#zero-trust-roles).
 
 ## View results for all devices
 
@@ -30,12 +29,8 @@ To view analytics on a per-device level:
 3. Select the **Tests** tab.
 4. Select a test to view detailed results.
 
-## Data retention
+## Related resources
 
-DEX stores test results for the following amount of time:
-
-| Zero Trust plan | Duration |
-| --------------- | -------- |
-| **Free**        | 24 hours |
-| **Standard**    | 7 days   |
-| **Enterprise**  | 7 days   |
+- [DEX HTTP test](/cloudflare-one/insights/dex/tests/http/) - Assess the accessibility of a web application.
+- [DEX Traceroute test](/cloudflare-one/insights/dex/tests/traceroute/) - Measure the network path of an IP packet from an end-user device to a server.
+- [DEX rules](/cloudflare-one/insights/dex/rules/) - Specify the target group of a test.

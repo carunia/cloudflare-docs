@@ -7,7 +7,7 @@ product:
   additional_groups: [Storage]
 
 meta:
-  title: Cloudflare Queues
+  title: Cloudflare Queues docs
   description: Reliably send and receive messages without the egress fees.
   author: "@cloudflare"
 
@@ -16,8 +16,3 @@ resources:
   discord: https://discord.com/channels/595317990191398933/1008691665688604783
   # Coming Soon:
   # dashboard_link: https://dash.cloudflare.com/?to=/:account/queues
-
-algolia:
-  index: TEST - Re-dev docs
-  apikey: 4edb0a6cef3338ff4bcfbc6b3d2db56b
-  product: queues
